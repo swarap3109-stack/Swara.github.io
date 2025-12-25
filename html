@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swara Patel | Researcher • Advocate • Entrepreneur</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2d3436;
+            --accent: #0984e3;
+            --text: #636e72;
+            --bg: #ffffff;
+            --section-bg: #f9f9f9;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--primary);
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--primary);
+            margin-left: 2rem;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover { color: var(--accent); }
+
+        /* Hero Section */
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 1rem;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        header h1 { font-size: 3.5rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.25rem; color: var(--text); max-width: 600px; }
+        .roles { font-weight: bold; color: var(--accent); }
+
+        /* Sections */
+        section { padding: 5rem 2rem; max-width: 900px; margin: 0 auto; }
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { margin-top: 0; color: var(--accent); }
+        
+        .tag {
+            display: inline-block;
+            background: #e1f5fe;
+            color: #01579b;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Specific Styles */
+        .highlight-box {
+            background: var(--section-bg);
+            padding: 2rem;
+            border-left: 5px solid var(--accent);
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem;
+            background: var(--primary);
+            color: white;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            header h1 { font-size: 2.5rem; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div style="font-weight: bold; font-size: 1.2rem;">SP</div>
+            <div class="nav-links">
+                <a href="#research">Research</a>
+                <a href="#advocacy">Advocacy</a>
+                <a href="#entrepreneurship">Entrepreneurship</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Swara Patel</h1>
+        <p>
+            <span class="roles">Researcher • Advocate • Entrepreneur</span><br>
+            [cite_start]Student at Carrollwood Day School IB Program[cite: 4]. 
+            Passionate about climate science, sustainable agriculture, and community empowerment.
+        </p>
+    </header>
+
+    <section id="research">
+        <h2 class="section-title">🔬 Researcher</h2>
+        <div class="highlight-box">
+            [cite_start]<strong>National STEM Finalist 2026</strong> [cite: 8] [cite_start]& <strong>ISEF '24 Participant</strong>[cite: 30].
+            [cite_start]<p>Specializing in polymicrobial fertilizers, carbon sequestration, and terraforming research[cite: 31, 33, 34].</p>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <span class="tag">Agricultural Science</span>
+                <h3>Potato Yield Prediction</h3>
+                [cite_start]<p>Developing efficacy tests for novel polymicrobial fertilizers using WinRhizo Root Scanners to predict crop yield[cite: 31].</p>
+            </div>
+            <div class="card">
+                <span class="tag">Marine Science</span>
+                <h3>Phytodesalination</h3>
+                [cite_start]<p>Investigating growth rates of Duckweed in saltwater hydroponics to develop linear models for desalination[cite: 32].</p>
+            </div>
+            <div class="card">
+                <span class="tag">Astrobotany</span>
+                <h3>Mars Life Support</h3>
+                [cite_start]<p>Determining ideal substrate ratios for oxygen-producing life support systems on Mars using Cyanobacteria[cite: 33, 34].</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="advocacy" style="background-color: var(--section-bg);">
+        <h2 class="section-title">📢 Advocate</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Global Speaking</h3>
+                [cite_start]<p>Delivered TEDx talks and addressed the 80th UN General Assembly in NYC regarding youth climate action[cite: 14, 16, 17].</p>
+            </div>
+            <div class="card">
+                <h3>Climate Cardinals</h3>
+                [cite_start]<p>Communications Specialist for North America, translating climate news beyond official UN languages[cite: 11, 13].</p>
+            </div>
+            <div class="card">
+                <h3>Community Leadership</h3>
+                [cite_start]<p>Executive Board member for Hillsborough County Youth Leadership Council and Media Liaison for GreyToGreen International[cite: 52, 55].</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="entrepreneurship">
+        <h2 class="section-title">🌱 Entrepreneur</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Mango United (CEO)</h3>
+                [cite_start]<p>Founded a farm-to-table company generating over $75,000 in revenue and raising $53,260 for local farmers[cite: 27, 29].</p>
+            </div>
+            <div class="card">
+                <h3>Science Buddies (Founder)</h3>
+                [cite_start]<p>Mentorship program expanding inquiry-based learning to 40+ members across Title I elementary schools[cite: 22, 26].</p>
+            </div>
+            <div class="card">
+                <h3>National App Challenge</h3>
+                [cite_start]<p>2nd Place winner for developing and launching a mobile app to identify reef-safe products[cite: 7].</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2 class="section-title">Experience & Skills</h2>
+        <div class="grid">
+            <div>
+                <h3>Education & Honors</h3>
+                <ul>
+                    [cite_start]<li>Patriot Eagle Scholarship ($100,000) [cite: 6]</li>
+                    [cite_start]<li>NSLI-Y Arabic Program Scholar [cite: 6]</li>
+                    [cite_start]<li>Congressional Intern (Office of Laurel Lee) [cite: 18]</li>
+                    [cite_start]<li>Florida Senate Page [cite: 48]</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Technical Skills</h3>
+                <ul>
+                    [cite_start]<li>Python & Machine Learning [cite: 38, 79, 80]</li>
+                    [cite_start]<li>AAUS Certified Scientific Diver [cite: 9, 80]</li>
+                    [cite_start]<li>Intermediate Arabic Speaker [cite: 80]</li>
+                    [cite_start]<li>USA Fencing (Regional Competitor) [cite: 44, 46]</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Let's Connect</h2>
+        <p>Tampa, FL | [cite_start]Swarap3109@gmail.com [cite: 2]</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p style="margin-top: 2rem; font-size: 0.8rem; opacity: 0.7;">&copy; 2025 Swara Patel. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
